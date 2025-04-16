@@ -1,15 +1,14 @@
 <script setup>
-  const { locale, setLocale } = useI18n()
 </script>
 
 <template>
      <div class="px-40 flex flex-1 justify-center py-5">
           <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
             <div class="flex flex-wrap gap-2 p-4">
-              <a class="text-[#636f88] text-base font-medium leading-normal" href="#">{{ $t('products') }}</a>
+              <a class="text-[#636f88] text-base font-medium leading-normal" href="#">products</a>
             </div>
             <div class="flex flex-wrap justify-between gap-3 p-4">
-                <p class="text-[#111318] tracking-light text-[32px] font-bold leading-tight min-w-72">{{ $t('catalog') }}</p></div>
+                <p class="text-[#111318] tracking-light text-[32px] font-bold leading-tight min-w-72">catalog</p></div>
             <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
               
               <NuxtLink :to="'/phones'">

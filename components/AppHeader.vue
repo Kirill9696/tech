@@ -1,5 +1,4 @@
 <script setup>
-  const { locale, setLocale } = useI18n();
   const lang = useLang();
   const languages = useLanguages();
   const theme = useTheme();
